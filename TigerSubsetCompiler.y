@@ -226,7 +226,7 @@ void make_space_for_loc_var(char* id, int is_arg) // Used for adding local varia
 {
 	append_loc_scope(id); 
 	if(is_arg) { printf(loc_var_arg, arg_reg_ct); } // We use this to tell which arg register to get the arg from (a0, a1, etc..)
-	else { printf(loc_var_new); } // If it's not an arg, just load a 0 into the next 4 bytes of the stack
+	else { printf("%s", loc_var_new); } // If it's not an arg, just load a 0 into the next 4 bytes of the stack
 	arg_reg_ct+=1;
 }
 
@@ -282,7 +282,7 @@ void insert_into_arg_reg(char* reg) // Used for call statements and inserting va
 
 void save_before_call_and_incr() // We have to make sure we adjust the offset when retreiving variables
 {
-	printf(save_before_call);
+	printf("%s", save_before_call);
 	offset+=52; // Because we push 52 bytes on the stack to save variables
 }
 
@@ -327,8 +327,8 @@ void call_gint(char* id_location) // Call getint
 %%
 
 
-program		: LET {printf(".text\n\tj toyger_start\n%s%s%s",p_i,p_str,g_i);} decs IN {printf(toyger_start);}
-            statements END {printf(toyger_end);}
+program		: LET {printf(".text\n\tj toyger_start\n%s%s%s",p_i,p_str,g_i);} decs IN {printf("%s",toyger_start);}
+            statements END {printf("%s",toyger_end);}
 
 decs  : dec  decs
       | %empty
@@ -414,7 +414,7 @@ expr_list	: expr_list COMMA expr { insert_into_arg_reg($3); /* 3 is our reg that
 
 int main(){
     yyparse();
-    fprintf(stderr, pass_msg); // If we successfully parse all tokens then PASS
+    fprintf(stderr, "%s", pass_msg); // If we successfully parse all tokens then PASS
     return 0;
 }
 
