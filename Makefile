@@ -1,4 +1,4 @@
-CFLAGS=-g -Og -Wall -Wno-unused-variable -Wno-unused-function -std=c99 -ly -lfl
+CFLAGS=-g -Og -Wall -Wno-unused-variable -Wno-unused-function -std=c99 -lfl
 CC=gcc
 NAME=TigerSubsetCompiler
 
