@@ -21,7 +21,7 @@ This subset of the Tiger programming language was introduced in the undergraduat
 
 Usage:
 
-To execute a testcase and compile/run an example Toyger program, simply use the provided shell script: ./run.sh [TEST-CASE-NAME]
+To compile/run an example Toyger program, simply use the provided shell script: ./run.sh [TEST-CASE-NAME]
 
 For example: ./run.sh G5_hardFor2. The expected outputs for each Toyger program are provided in the testcases/expected_output folder. You may notice that some programs have different output variations such as G4_basicInput1@1.out and G4_basicInput1@2.out. This is because G4_basicInput1 takes user input using getint(). You can supply the correct input argument for the testcase by using the appropriate input file: ./run.sh G4_basicInput1 < testcases/cases/inputs/G4_basicInput1@1.in and ./run.sh G4_basicInput1 < testcases/cases/inputs/G4_basicInput1@2.in
 
