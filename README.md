@@ -17,7 +17,7 @@ Assumptions:
 
 Language Specifications:
 
-This subset of the Tiger programming language was introduced in the undergraduate Compilers course I took at GMU and is dubbed "Toyger". To see the lexical/syntax specifications for Toyger, please refer to the "language" folder and the example Toyger programs in the "testcases" folder. Also included in the "language" folder is the semantic rules for Toyger.
+This subset of the Tiger programming language was introduced in the undergraduate Compilers course I took at GMU and is dubbed "Toyger". To see the lexical/syntax specifications for Toyger, please refer to the "language" folder and the example Toyger programs in the "testcases" folder. Also included in the "language" folder are the semantic rules for Toyger.
 
 To run a testcase and compile/run an example Toyger program, simply use the provided shell script: ./run.sh [TEST-CASE-NAME]
 
