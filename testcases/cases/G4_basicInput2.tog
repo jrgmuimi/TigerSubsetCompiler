@@ -1,0 +1,16 @@
+let
+    var a:int
+    var b:int
+    var a1:int
+    var b1:int
+
+in
+    a := getint();
+    printint(a);
+    a1 := getint();
+    printint(a1);
+    b := getint();
+    b1 := getint();
+    printint(b);
+    printint(b1)
+end

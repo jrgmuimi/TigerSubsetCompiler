@@ -1,0 +1,8 @@
+let
+    var if_ctrl : int
+in
+    if_ctrl := 1;
+    if (0 < 0-if_ctrl) then
+        printint(if_ctrl)
+    end
+end

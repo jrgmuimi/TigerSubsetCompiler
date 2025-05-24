@@ -1,0 +1,15 @@
+let
+    var num : int
+    function func():void = 
+        let 
+            var num : int
+        in
+            num := 999
+    end
+in
+    num := 0;
+    printint(num);          // 0
+    printstring("\n");
+    func();
+    printint(num)           // also 0
+end

@@ -1,0 +1,43 @@
+let
+    var num : int
+
+    function func1():void = 
+        let 
+            var num : int
+        in
+            num := 123;
+            printstring("\n\t\t\t");
+            printint(num)
+    end
+
+    function func2():void = 
+        let 
+            var num : int
+        in
+            num := 23;
+            printstring("\n\t\t");
+            printint(num);
+            func1();
+            printstring("\n\t\t");
+            printint(num)
+    end
+
+    function func3():void = 
+        let 
+            var num : int
+        in
+            num := 3;
+            printstring("\n\t");
+            printint(num);
+            func2();
+            printstring("\n\t");
+            printint(num)
+    end
+in
+    num := 0;
+    printint(num);          // 0
+    printstring("\n");
+    func3();
+    printstring("\n");
+    printint(num)           // also 0
+end

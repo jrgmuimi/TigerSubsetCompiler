@@ -1,0 +1,7 @@
+let
+    function func():void = 
+        return
+    end
+in
+    func()
+end

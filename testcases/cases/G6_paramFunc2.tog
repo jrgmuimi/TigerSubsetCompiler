@@ -1,0 +1,23 @@
+let
+
+    var p1:int
+    var p2:int
+    function Pfunc1(p1:int):void = 
+        printstring("I got a param! - ");
+        printint(p1)
+    end
+
+    function Pfunc2(p1:int, p2:int):void = 
+        printstring("I got two params! - ");
+        printint(p1);
+        printstring(" - ");
+        printint(p2)
+    end
+in
+    p1:=0;
+    p2:=9;
+    Pfunc1(p2);
+    printstring("\n");
+    Pfunc2(p2,p1)
+
+end

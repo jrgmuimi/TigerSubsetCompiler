@@ -1,0 +1,11 @@
+let
+    var number:int
+    function changeNothing(p1:int):void = 
+        number:=p1 + number;
+        number:= number + p1
+    end
+in
+    number := 2;
+    changeNothing(number);
+    printint(number)            // 6
+end

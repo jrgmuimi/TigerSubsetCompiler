@@ -1,0 +1,8 @@
+let
+
+in
+    printint(123/123);
+    printint(49/1);
+    printint(10/3);
+    printint(0/12)
+end

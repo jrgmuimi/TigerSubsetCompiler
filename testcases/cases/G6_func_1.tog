@@ -1,0 +1,15 @@
+let
+    function func1():void = 
+        printstring("basic Func1...\n")
+    end
+    function func2():void = 
+        printstring("basic Func2...\n")
+    end
+    function func3():void = 
+        printstring("basic Func3...\n")
+    end
+in
+    func1();
+    func3();
+    func2()
+end

@@ -1,0 +1,11 @@
+let
+    var only_var    :   int
+in
+    for only_var:=30 to 90 do
+        only_var:=only_var
+    end;
+
+    if (only_var >= 90) then
+        printstring("Okay.")
+    end
+end

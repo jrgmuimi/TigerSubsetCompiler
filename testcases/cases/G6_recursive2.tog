@@ -1,0 +1,15 @@
+let
+    var n:int
+
+    function rec():void =
+        if (n==100) then
+            return
+        end;
+        n := n+1;
+        rec()
+    end
+in
+    n := 0;
+    rec();
+    printint(n)
+end

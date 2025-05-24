@@ -1,0 +1,7 @@
+let
+    var loop_ctrl : int
+in
+    for loop_ctrl:=11 to 10 do      // no loop body executed
+        printint(loop_ctrl)
+    end
+end

@@ -1,0 +1,10 @@
+let
+    var if_ctrl : int
+in
+    if_ctrl := 100;
+    if (if_ctrl >= if_ctrl*if_ctrl) then
+        printstring("True")
+    else
+        printstring("False")
+    end
+end

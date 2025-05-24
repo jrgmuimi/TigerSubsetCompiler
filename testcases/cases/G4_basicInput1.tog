@@ -1,0 +1,7 @@
+let
+    var a:int
+
+in
+    a := getint();
+    printint(a)
+end

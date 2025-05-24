@@ -1,0 +1,6 @@
+let 
+    var basicVar1: int
+in
+    basicVar1 := 540;
+    printint(basicVar1)
+end

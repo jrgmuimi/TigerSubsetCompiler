@@ -1,0 +1,23 @@
+let
+    var num:int
+
+    function doNothingButRec(n:int):int =
+        if (n>=0) then
+            doNothingButRec(n-1)
+        end;
+        return n
+    end
+
+    function factorial(n:int):int =
+        if (n==0) then 
+            return 1
+        else
+            return doNothingButRec(n) * factorial(n-1)
+        end
+    end
+
+in
+    num := 3;
+    num := factorial(factorial(num));
+    printint(num)
+end

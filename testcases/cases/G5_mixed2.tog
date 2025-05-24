@@ -1,0 +1,27 @@
+let
+    var odd_sum : int
+    var even_sum: int
+    var num     : int
+    var flip    : int
+    var i       : int
+in
+    flip := 0;
+    for num:=0 to 40 do             // prints a triangle
+        for i:=0 to 40-num do       // space padding    
+                printstring(" ");
+                i := i+1
+        end;
+        if (flip == 1) then         
+            for i:=0 to num do
+                printstring("~")
+            end;
+            flip := 0
+        else
+            for i:=0 to num do
+                printstring("*")
+            end;
+            flip := 1
+        end;
+        printstring("\n")
+    end
+end

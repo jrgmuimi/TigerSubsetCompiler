@@ -1,0 +1,31 @@
+let 
+    var basicVar1: int
+    var basicVar2: int
+    var basicVar3: int
+    var basicVar4: int
+    var basicVar5: int
+    var basicVar6: int
+    var basicVar7: int
+    var basicVar8: int
+    var basicVar9: int
+
+in
+    basicVar1 := 540;
+    basicVar2 := 440;
+    basicVar3 := 1;
+    basicVar4 := 2;
+    basicVar5 := 3;
+    basicVar6 := 2;
+    basicVar7 := 2;
+    basicVar8 := 11111111;
+    basicVar9 := 0*0;
+    printint(basicVar1);
+    printint(basicVar2);
+    printint(basicVar3);
+    printint(basicVar4);
+    printint(basicVar5);
+    printint(basicVar6);
+    printint(basicVar7);
+    printint(basicVar8);
+    printint(basicVar9)
+end

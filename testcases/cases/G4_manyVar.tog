@@ -1,0 +1,39 @@
+let 
+    var basicVar1: int
+    var basicVar2: int
+    var basicVar3: int
+    var basicVar4: int
+    var basicVar5: int
+    var basicVar6: int
+    var basicVar7: int
+    var basicVar8: int
+    var basicVar9: int
+    var basicVar11: int
+    var basicVar12: int
+    var basicVar13: int
+    var basicVar14: int
+    var basicVar15: int
+    var basicVar16: int
+    var basicVar17: int
+    var basicVar18: int
+    var basicVar19: int
+    var basicVar111: int
+    var basicVar112: int
+    var basicVar113: int
+    var basicVar114: int
+    var basicVar115: int
+    var basicVar116: int
+    var basicVar117: int
+    var basicVar118: int
+    var basicVar119: int
+
+in
+    basicVar119 := 540;
+    basicVar1 := 540;
+    basicVar15 := 123123;
+    
+    printint(basicVar1);
+    printint(basicVar119);
+    printint(basicVar15)
+
+end

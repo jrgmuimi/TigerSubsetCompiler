@@ -1,0 +1,13 @@
+let
+    function func1():int = 
+        return 2
+    end
+    function func2():int = 
+        return func1() + func1()
+    end
+    function func3():void = 
+        return func2() * func2() - func2()/func1()
+    end
+in
+    printint(func3())
+end

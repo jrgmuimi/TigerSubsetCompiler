@@ -1,0 +1,7 @@
+let
+    function func():void = 
+        printstring("basic Func...\n")
+    end
+in
+    func()
+end

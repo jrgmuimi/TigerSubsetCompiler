@@ -1,0 +1,16 @@
+let
+
+in
+    printstring("CS 440: Compilers");
+    printstring("strings");
+    printint(440);
+    printstring("testing testing");
+    printint(5555555);
+    printint(440);
+    printstring("long long long string \n");
+    printint(1111111);
+    printstring("\t\t\t");
+    printint(440);
+    printstring(" \" escaped chars\" ");
+    printint(9999999)
+end

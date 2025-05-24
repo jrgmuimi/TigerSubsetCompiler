@@ -1,0 +1,13 @@
+let
+    var loop_ctrl : int
+    var random_var: int
+in
+    random_var := 5;
+    for loop_ctrl:=0 to loop_ctrl+random_var do     // This is tricky 
+        printint(loop_ctrl);
+        printint(random_var);
+        printstring("\n");
+        random_var := random_var - 1;               // random_var is the actual loop control var, it -1 each iteration
+        loop_ctrl := loop_ctrl - 1                  // manaully -1 from loop_ctrl, so loop_ctrl remains 0
+    end
+end

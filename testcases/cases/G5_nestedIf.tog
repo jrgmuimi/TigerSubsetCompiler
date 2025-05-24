@@ -1,0 +1,40 @@
+let
+    var num1: int
+    var num2: int
+    var num3: int
+    var num4: int
+    var num5: int
+    var num6: int
+in
+
+    num1 := 2;
+    num2 := 2;
+    num3 := 1;
+    num4 := 0;
+    num5 := 101;
+    num6 := 100;
+    if (num1 == num2) then
+        if (num1 + num2 > num3) then
+            printstring("num4 := num1 + num2\n");
+            num4 := num1 + num2
+        else
+            printstring("num4 := num3\n");
+            num4 := num3
+        end;
+        if (num5 <= num6) then
+            printstring("num5 := num5 - num6\n");
+            num5 := num5 - num6
+        end;
+        if (0 <> 1) then
+            printstring("Loc 1\n");
+            if (num4-num5 >= 0) then
+                printstring("Loc 2\n")
+            else
+                printstring("Loc 3\n");
+                if (num6<=100) then
+                    printstring("Loc 4: Try your best to reach this loc.\n")
+                end
+            end
+        end
+    end
+end

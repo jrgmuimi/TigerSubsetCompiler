@@ -1,0 +1,19 @@
+let
+    var for_ctrl1 : int
+    var for_ctrl2 : int
+    var random    : int
+    var num : int
+in
+    for for_ctrl1:=0 to 11 do
+        num := 0;
+        for for_ctrl2:=1 to for_ctrl1+1 do
+            num := num + for_ctrl2;
+            for random:=0 to (for_ctrl1*for_ctrl2*10) do
+                random := random + 7            // extra +7 to make the loop ends faster. It doesnt do anything
+            end
+        end;
+        printint(num);
+        printstring("\n")
+    end
+end
+        

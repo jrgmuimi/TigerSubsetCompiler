@@ -1,0 +1,10 @@
+let
+    function countdown(_count:int):void = 
+        if (_count==0) then 
+            return
+        end;
+        printint(_count)
+    end
+in
+    countdown(10)
+end

@@ -1,0 +1,12 @@
+let
+    var input_num : int
+    var temp_num  : int
+    var output_num: int
+in
+    printstring("give me a number: ");
+    input_num := getint();
+    temp_num := input_num + 10 - 1;
+    output_num := (temp_num + input_num) *2;
+    printstring("\nHere's ur new number: ");
+    printint(output_num/2)
+end

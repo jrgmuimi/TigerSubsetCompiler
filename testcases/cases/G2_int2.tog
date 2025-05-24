@@ -1,0 +1,10 @@
+let
+
+in
+    printint(440);
+    printint(5555555);
+    printint(440);
+    printint(1111111);
+    printint(440);
+    printint(9999999)
+end

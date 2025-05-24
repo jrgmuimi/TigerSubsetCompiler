@@ -1,0 +1,27 @@
+let
+    var loop_ctrl : int
+    var loop_ctrl1 : int
+    var loop_ctrl2 : int
+in
+    for loop_ctrl:=0 to 10 do 
+        printint(loop_ctrl);
+        printstring("loop1\n")
+    end;
+
+    for loop_ctrl1:=0 to loop_ctrl do 
+        printint(loop_ctrl1);
+        printstring("loop2\n")
+    end;
+
+
+    for loop_ctrl2:=0 to loop_ctrl1 do 
+        printint(loop_ctrl2);
+        printstring("loop3\n")
+    end;
+
+    for loop_ctrl:=0 to loop_ctrl2 do 
+        printint(loop_ctrl);
+        printstring("loop4\n")
+    end
+
+end

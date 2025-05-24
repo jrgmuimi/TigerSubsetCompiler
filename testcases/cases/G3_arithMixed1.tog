@@ -1,0 +1,8 @@
+let
+
+in
+    printint(122-11*1*2+10+0);
+    printint(48-0*999+10/10+8-7);
+    printint(99/99*100);
+    printint(0+0/123*440*540*1)
+end

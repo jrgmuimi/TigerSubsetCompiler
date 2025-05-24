@@ -1,0 +1,11 @@
+let
+    function slow_pow(n:int, pow:int):int = 
+        if (pow == 0) then
+            return 1
+        else
+            return n * slow_pow(n, pow-1)
+        end
+    end
+in
+    printint(slow_pow(2, 11) - slow_pow(2,12) + slow_pow(2,10))
+end

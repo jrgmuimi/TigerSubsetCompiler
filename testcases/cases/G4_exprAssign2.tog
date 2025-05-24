@@ -1,0 +1,14 @@
+let
+    var num1 : int
+    var num2  : int
+in
+    num1 := 0+0/123*440*540*1;
+    num2 := 1*(8 + 2) * (5 - 3) / (4 / 2)  ;
+    printint(num1);
+    printint(num2);
+    num1 := (10);
+    num2 := (0);
+    printint(num1);
+    printint(num2)
+
+end

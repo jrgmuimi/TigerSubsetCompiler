@@ -1,0 +1,19 @@
+let 
+    var v1 : int
+    var v2 : int
+    var v3 : int
+    var v4 : int
+    var v5 : int
+in 
+    v1 := 123+123;
+    v2 := 456;
+    v3 := v2 - (v2 + v2)*8;
+    v4 := v1/(v1 - v2/v2) + v1;
+    v5 := v1+v2-v3 * v4 - 0 * (0 + 0 + v1);
+    v4 := v4-v4;
+    printint(v1);
+    printint(v2);
+    printint(v3);
+    printint(v4);
+    printint(v5)
+end

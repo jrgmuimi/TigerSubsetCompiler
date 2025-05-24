@@ -1,0 +1,8 @@
+let
+    function func(func:int):void = 
+        func:=100;
+        printint(func)
+    end
+in
+    func(0)
+end

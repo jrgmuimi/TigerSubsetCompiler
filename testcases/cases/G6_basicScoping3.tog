@@ -1,0 +1,9 @@
+let
+    function func(q:int):void = 
+        printint(q)
+    end
+    var q:int
+in  
+    q:=123;
+    func(q)
+end

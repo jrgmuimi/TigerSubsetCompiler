@@ -1,0 +1,14 @@
+let
+    var num1 : int
+    var num2  : int
+in
+    num1 := 2+2;
+    num2 := 10-4;
+    printint(num1);
+    printint(num2);
+    num1 := 10*10;
+    num2 := 10/10;
+    printint(num1);
+    printint(num2)
+
+end

@@ -1,0 +1,28 @@
+let
+    var loop_ctrl : int
+    var counter : int
+in
+    counter := 0;
+    for loop_ctrl:=0 to 100 do          // expect to see 105 iterations
+        printstring("loop 1 \n");       // all outer loops only exec once
+        counter := counter + 1;         // inner loop exec 100 times
+        for loop_ctrl:=0 to 100 do      // when inner loop ends, all outer loop ends too
+            printstring("loop 2 \n");
+            counter := counter + 1;
+            for loop_ctrl:=0 to 100 do
+                printstring("loop 3 \n");
+                counter := counter + 1;
+                for loop_ctrl:=0 to 100 do
+                    printstring("loop 4 \n");
+                    counter := counter + 1;
+                    for loop_ctrl:=0 to 100 do
+                        counter := counter + 1;
+                        printstring("loop 5 \n")
+                    end
+                end
+            end
+        end
+    end;
+    printstring("\n END\n");
+    printint(counter)
+end

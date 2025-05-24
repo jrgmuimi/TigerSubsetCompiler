@@ -1,0 +1,6 @@
+let 
+    var v1 : int
+in 
+    v1 := 123;
+    printint(v1)
+end

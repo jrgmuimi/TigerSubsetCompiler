@@ -1,0 +1,14 @@
+let
+    var a: int
+    var _a_number: int
+    var _another_num: int
+
+in
+    a := getint();
+    _a_number := getint();
+    printint(a);
+    printint(_a_number);
+    _another_num := getint();
+    printint(_another_num)
+
+end

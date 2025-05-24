@@ -1,0 +1,9 @@
+let
+
+in
+    printint(123*321);
+    printint(321*321);
+    printint(1*0);
+    printint(0*12);
+    printint(0*0)
+end

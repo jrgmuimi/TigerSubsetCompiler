@@ -1,0 +1,8 @@
+let
+
+in
+    printint((2 + 3) * 4  );
+    printint(((1 + 2) * (3 + 4)) / (2 + 1)  );
+    printint(10 - (2 + 3) * 2  );
+    printint((8 + 2) * (5 - 3) / (4 / 2)  )
+end

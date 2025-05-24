@@ -1,0 +1,16 @@
+let
+    var square : int
+    var odd    : int
+    var n      : int
+in
+    square  := 0;
+    odd     := 1;
+    for n:=1 to 101 do 
+        square  := square+odd;
+        odd     := odd + 2;
+        if (square <= 100) then
+            printint(square);
+            printstring("\n")
+        end
+    end
+end

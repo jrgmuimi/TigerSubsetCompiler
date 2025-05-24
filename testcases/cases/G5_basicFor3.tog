@@ -1,0 +1,7 @@
+let
+    var loop_ctrl : int
+in
+    for loop_ctrl:=10 to 10 do      // one iteration
+        printint(loop_ctrl)
+    end
+end

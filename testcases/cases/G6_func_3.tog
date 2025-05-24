@@ -1,0 +1,18 @@
+let
+    var func_ctrl:int
+
+    function getFuncCtrl():int = 
+        return func_ctrl
+    end
+
+    function shouldBEZ():void = 
+        if (func_ctrl == getFuncCtrl()) then
+            printstring("You did it!\n")
+        else
+            printstring("Good try!\n")
+        end
+    end
+in
+    func_ctrl := 99;
+    shouldBEZ()
+end

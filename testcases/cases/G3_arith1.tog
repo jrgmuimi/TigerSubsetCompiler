@@ -1,0 +1,8 @@
+let
+
+in
+    printint(123+321);
+    printint(321+321);
+    printint(0+0);
+    printint(0)
+end

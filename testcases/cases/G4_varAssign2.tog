@@ -1,0 +1,9 @@
+let 
+    var v1 : int
+    var v2 : int
+in 
+    v1 := 123;
+    v2 := 880;
+    printint(v1);
+    printint(v2)
+end

@@ -1,0 +1,23 @@
+let
+    function add(a:int, b:int):int = 
+        return a+b
+    end
+    function sub(a:int, b:int):int = 
+        return a-b
+    end
+    function mul(a:int, b:int):int = 
+        return a*b
+    end
+    function div(a:int, b:int):int = 
+        return a/b
+    end
+in
+    printint( add( 2, 3) );
+    printstring("\n");
+    printint( sub( 2, 6) );
+    printstring("\n");
+    printint( div( 4, 2) );
+    printstring("\n");
+    printint( mul( 2, 3) );
+    printstring("\n")
+end

@@ -1,0 +1,6 @@
+let
+in
+    if (0 == 1) then
+        printint(0)
+    end
+end

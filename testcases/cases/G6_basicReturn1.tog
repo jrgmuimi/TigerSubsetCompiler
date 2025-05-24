@@ -1,0 +1,7 @@
+let
+    function func():int = 
+        return 100
+    end
+in
+    printint(func())
+end

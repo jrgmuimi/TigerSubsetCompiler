@@ -1,0 +1,13 @@
+let 
+    var basicVar1: int
+    var basicVar2: int
+    var basicVar3: int
+in
+    basicVar1 := 540;
+    printint(basicVar1);
+    basicVar2 := 440;
+    printint(basicVar2);
+    basicVar3 := 123+321;
+    printint(basicVar3)
+
+end

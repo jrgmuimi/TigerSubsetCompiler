@@ -1,0 +1,8 @@
+let
+    function Pfunc(p1:int):void = 
+        printstring("I got a param! - ");
+        printint(p1)
+    end
+in
+    Pfunc(123456789)
+end

@@ -1,0 +1,27 @@
+let
+    var a: int
+    var b: int
+    var c: int
+    var d: int
+    var e: int
+    var f: int
+    var g: int
+    var h: int
+in
+    a := 0;
+    b := a + 1;
+    c := a;
+    d := b+c;
+    e := 12;
+    f := d-b;
+    g := e+f;
+    h := g;
+    printint(a);printstring("\n");
+    printint(b);printstring("\n");
+    printint(c);printstring("\n");
+    printint(d);printstring("\n");
+    printint(e);printstring("\n");
+    printint(f);printstring("\n");
+    printint(g);printstring("\n");
+    printint(h)
+end
