@@ -1,4 +1,7 @@
 # TigerSubsetCompiler
+
+Demonstration video: https://www.youtube.com/watch?v=EY_7en5pymc
+
 This "compiler" is not a compiler in the traditional sense and makes a lot of assumptions that will be listed down below. The compiler performs lexical and syntax analysis using a lexer/parser as required for generating code, however semantic analysis and code optimization are not done in this program. When making the "compiler," the main focus was generating runnable and faithful MIPS code.
 
 Assumptions:
